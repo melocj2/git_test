@@ -1,0 +1,50 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.4rem;
+  margin: 0px;
+  line-height: 1.5;
+  background-color:rgb(212, 197, 197);
+  margin: 100px;
+}
+
+@media (min-height: 950px) {
+  body {
+    font-size: 2rem;
+  }
+}
+
+main {
+  background-color: #F2C9C9;
+  border-radius: 5px;
+  margin: auto;
+  max-width: 700px;
+  min-width: 500px;
+}
+
+#input1
+{
+  width: 500px;
+}
+
+.label1 {
+  float: left;
+  width: 50px;
+}
+
+#thankscont {
+  text-align: center;
+}
+
+#thanks {
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  padding: 30px;
+}
+
+

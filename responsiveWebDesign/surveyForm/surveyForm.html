@@ -1,0 +1,111 @@
+<DOCTYPE! html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="surveyForm.css">
+<title>Survey Form</title>
+</head>
+<body>
+<main id="main">
+  <h1 id="title">Survey Form</h1>
+  <form action="#" id="survey-form" method="GET">
+    <section id="input1">
+    <p id="description">Please provide us with some details so that we may continue to make the site better.</p>
+    <label for="name" class="label1" id="name-label"> Name: </label> <input autofocus type="text" name="name" placeholder="Please enter your name" id="name" class="input-field" required><br>
+    <label for="email" class="label1" id="email-label"> Email: </label> <input type="email" name="email" placeholder="Please enter your email" id="email" class="input-field" required><br>
+    <label for="age" class="label1" id="number-label"> Age: </label>  <input type="number" name="number" placeholder="Please enter your age" id="number" class="input-field" min="0" max="120" required>
+  </section>
+  <br>
+    <label id="dropdown-label" for="fav-color"> Favourite Color: </label> 
+    <select id="dropdown" name="fav-color">
+      <option value="">--SELECT YOUR FAVOURITE COLOR--</option>
+      <option value="blue">Blue</option>
+      <option value="green">Green</option>
+      <option value="yellow">Yellow</option>
+      <option value="orange">Orange</option>
+      <option value="red">Red</option>
+      <option value="purple">Purple</option>
+    </select>
+
+    <!--continue with some groups of radio buttons step 13-->
+    <p>This website was easy to use.</p>
+    <div>
+      <input type="radio" id="sAEaseOfUse" name="EaseOfUse" value="sA" checked>
+      <label for="sAEaseOfUse">Strongly Agree</label>
+    </div>
+    <div>
+      <input type="radio" id="aEaseOfUse" name="EaseOfUse" value="a">
+      <label for="aEaseOfUse">Agree</label>
+    </div>
+    <div>
+      <input type="radio" id="nEaseOfUse" name="EaseOfUse" value="n">
+      <label for="nEaseOfUse">Neither Agree nor Disagree</label>
+    </div>
+    <div>
+      <input type="radio" id="dEaseOfUse" name="EaseOfUse" value="d">
+      <label for="dEaseOfUse">Disagree</label>
+    </div>
+    <div>
+      <input type="radio" id="sDEaseOfUse" name="EaseOfUse" value="sD">
+      <label for="sDEaseOfUse">Strongly Disagree</label>
+    </div>
+    <br>
+    <p>This website was fun to use.</p>
+    <div>
+      <input type="radio" id="sAFunOfUse" name="FunOfUse" value="sA" checked>
+      <label for="sAFunOfUse">Strongly Agree</label>
+    </div>
+    <div>
+      <input type="radio" id="aFunOfUse" name="FunOfUse" value="a">
+      <label for="aFunOfUse">Agree</label>
+    </div>
+    <div>
+      <input type="radio" id="nFunOfUse" name="FunOfUse" value="n">
+      <label for="nFunOfUse">Neither Agree nor Disagree</label>
+    </div>
+    <div>
+      <input type="radio" id="dFunOfUse" name="FunOfUse" value="d">
+      <label for="dFunOfUse">Disagree</label>
+    </div>
+    <div>
+      <input type="radio" id="sFunOfUse" name="EaseOfUse" value="sD">
+      <label for="sDFunOfUse">Strongly Disagree</label>
+    </div>
+    <br>
+      <p>I like the following foods (select all that apply):</p>
+    <div>
+      <input type="checkbox" id="hamburgers" name="hamburgers" value="foodPreferences">
+      <label for="hamburgers">Hamburgers</label>
+    </div>
+    <div>
+        <input type="checkbox" id="tacos" name="tacos" value="foodPreferences">
+        <label for="tacos">Tacos</label>
+    </div>
+    <div>
+        <input type="checkbox" id="hotdogs" name="hotdogs" value="foodPreferences">
+        <label for="hotdogs">Hot Dogs</label>
+    </div>
+    <div>
+        <input type="checkbox" id="nachos" name="nachos" value="foodPreferences">
+        <label for="nachos">Nachos</label>
+    </div>
+    <div>
+        <input type="checkbox" id="bbqChicken" name="bbqChicken" value="foodPreferences">
+        <label for="bbqChicken">BBQ Chicken</label>
+    </div>
+    <div>
+        <input type="checkbox" id="pulledPork" name="pulledPork" value="foodPreferences">
+        <label for="pulledPork">Pulled Pork</label>
+    </div>
+    <br>
+    <label for="comments">Please enter any additional comments below:</label><br><br>
+    <textarea id="comments" name="comments" rows="10" columns="30"></textarea>
+    <br><br><br>
+    <input type="submit" id="submit" value="submit">
+    <br><br><br>
+    <figure id="thankscont">
+      <img src="images/thanks.jpg" alt="thanks" id="thanks" />
+    </figure>
+  </form>
+</main>
+</body>
+</html>

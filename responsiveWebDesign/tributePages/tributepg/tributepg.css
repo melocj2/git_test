@@ -1,0 +1,121 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: helvetica;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+  margin-bottom: 0; 
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+
+a {
+  color: #477ca7;
+}
+
+a :visited {
+  color: #74638f;
+}
+
+#main {
+  margin: 30px 8px; 
+  padding: 15px;
+  border-radius: 5px;
+  background: #eee;
+}
+
+@media (max-width: 460px) {
+  #main
+  {margin: 0;
+}
+}
+
+#img-caption {
+  width: 507px;
+  text-align: justify;
+  margin: auto;
+  padding: 5px;
+}
+
+#image {
+  text-align: center;
+  height: auto;
+  max-width: 100%;
+  display: block;
+  margin: auto;
+}
+
+figure {
+  background: white;
+  border-radius: 5px; 
+  max-width: 700px;
+  margin: auto;
+}
+
+#tribute-info {
+  width: 507px;
+  text-align: justify;
+  margin: auto;
+  line-height: 3;
+}
+
+#quote-output {
+  position: fixed;
+  background: white;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 3;
+  height: auto;
+  width: 343px;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.5rem;
+  float: left;
+  align-items: center;
+  left: 5px;
+  bottom: 20px;
+  border: 1px black solid;
+}
+
+#block2 {
+  padding-top: 10px;
+}
+
+button {
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #477ca7;
+  margin: 0 0.3em 0.3em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:rgb(0, 0, 0);
+  text-align:center;
+  transition: all 0.2s;
+}
+button:hover{
+  color:#bfc3c7;
+  background-color:rgb(80, 78, 78);
+  }
+  @media all and (max-width:30em){
+   button {
+    display:block;
+    margin:0.4em auto;
+   }
+  }
